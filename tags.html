@@ -6,12 +6,12 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">homeページ</a>
-      <a href="moby_dick.html">読書案内『Moby Dick』</a>
-      <a href="tags.html">HTMLタグ一覧</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: #0000ff;">homeページ</a>
+      <a href="tags.html" style="margin:0 0 0 10px; text-decoration: none; color: #0000ff;">HTMLタグ一覧</a>
+      <a href="moby_dick.html" style="margin:0 0 0 10px; text-decoration: none; color: #0000ff;">読書案内『Moby Dick』</a>
     </div>
-    
+
     <h1>重要なHTMLタグ一覧</h1>
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
       <img src="images/storm_trooper_tagged.jpg" alt="タグ付きストームトルーパー">
@@ -37,12 +37,12 @@
         <th>目的</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
         <td>見出し(heading)</td>
         <td>この中に見出しを置く(レベル: 1&ndash;6)</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
+        <td style="padding: 10px;"><code>p</code></td>
         <td>段落(パラグラフ: paragraph)</td>
         <td>この中に文章を入れる</td>
       </tr>
@@ -92,6 +92,18 @@
         <td>リスト(list)</td>
         <td>リストの項目を表す</td>
       </tr>
+      
+      <tr>
+        <td><code>article</code></td>
+        <td>記事(article)</td>
+        <td>独立した記事であることを表す</td>
+      </tr>
+
+      <tr>
+        <td><code>section</code></td>
+        <td>セクション(section)</td>
+        <td>ページ内のセクションを定義する</td>
+      </tr>
     </table>
 
     <h2>インライン要素(inline element)</h2>
@@ -139,6 +151,12 @@
         <td><code>&lt;span&gt;こんにちは&lt;/span&gt;</code></td>
         <td><span>こんにちは</span></td>
       </tr>
+    </table>
+
+    <h2>ドキュメントタグ</h2>
+
+    <table>
+      <th></th>
     </table>
   </body>
 </html>
