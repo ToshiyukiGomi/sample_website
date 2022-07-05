@@ -5,3 +5,8 @@
 .nav-spacing{
   margin:0 0 0 10px;
 }
+
+a{
+  color: blue;
+  text-decoration: none;
+}
