@@ -1,6 +1,48 @@
+header {
+  text-align: center;
+  margin: 0 0 80px;
+}
+
 .nav-menu {
   text-align: right;
 }
+.nav-menu a {
+  text-decoration: none;
+  color: blue;
+}
 .nav-spacing {
   margin: 0 0 0 10px;
+}
+.image-link {
+  text-decoration: none;
+}
+
+.story {
+  width: 560px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fafafa;
+}
+
+
+.main__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.story__img {
+  float: left;
+  margin: 0px 40px 0px 0px;
+}
+
+.story blockquote {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.story blockquote span {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f00
 }
